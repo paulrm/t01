@@ -9,4 +9,7 @@ class init {
 			
 }
 
+function notUsed() {
+   return 1 + 1 ;
+}
 

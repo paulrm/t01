@@ -53,3 +53,8 @@ phploc
 ```
 phploc --count-tests ./src/ ./tests/
 ```
+lint a mano
+`php -l ./src/init.php`
+
+phpmd Mess Detector 
+`phpmd ./src/,./tests/ text unusedcode`
