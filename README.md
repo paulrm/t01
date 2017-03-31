@@ -45,3 +45,11 @@ shell returned 1
 ---
 ## 2017-03-31 Viernes
 Hechos algunos ajustes para eliminar error /tmp/t01/build.xml:23: /tmp/t01/tests does not exist. en el build 
+
+
+# Notas
+
+phploc 
+```
+phploc --count-tests ./src/ ./tests/
+```

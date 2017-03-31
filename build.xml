@@ -37,7 +37,8 @@
     </target>
 
     <target name="phploc" description="Measure project size using PHPLOC">
-        <exec executable="${basedir}/build/tools/phploc.phar" taskname="phploc">
+	    <!-- <exec executable="${basedir}/build/tools/phploc.phar" taskname="phploc"> -->
+	    <exec executable="/usr/local/bin/phploc" taskname="phploc">
             <arg value="--count-tests"/>
             <arg path="${basedir}/src"/>
             <arg path="${basedir}/tests"/>
@@ -46,7 +47,8 @@
 
     <target name="phploc-ci" depends="prepare"
             description="Measure project size using PHPLOC and log result in CSV and XML format">
-        <exec executable="${basedir}/build/tools/phploc.phar" taskname="phploc">
+	    <!-- <exec executable="${basedir}/build/tools/phploc.phar" taskname="phploc"> -->
+	<exec executable="/usr/local/bin/phploc" taskname="phploc">
             <arg value="--count-tests"/>
             <arg value="--log-csv"/>
             <arg path="${basedir}/build/logs/phploc.csv"/>
@@ -58,7 +60,8 @@
     </target>
 
     <target name="pdepend" depends="prepare" description="Calculate software metrics using PHP_Depend">
-        <exec executable="${basedir}/build/tools/pdepend.phar" taskname="pdepend">
+	    <!-- <exec executable="${basedir}/build/tools/pdepend.phar" taskname="pdepend"> -->
+		    <exec executable="/usr/local/bin/pdepend" taskname="pdepend">
             <arg value="--jdepend-xml=${basedir}/build/logs/jdepend.xml"/>
             <arg value="--jdepend-chart=${basedir}/build/pdepend/dependencies.svg"/>
             <arg value="--overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg"/>
