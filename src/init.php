@@ -1,6 +1,19 @@
 <?PHP
 
 
+/*
+ * Documentacion de prueba
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
 class init {
   public function verifica_array(){
      $array_target = array('azul','verde','rojo');
