@@ -7,6 +7,7 @@
         <delete dir="${basedir}/build/coverage"/>
         <delete dir="${basedir}/build/logs"/>
         <delete dir="${basedir}/build/pdepend"/>
+	<delete file="${basedir}/cache.properties"/>
         <property name="clean.done" value="true"/>
     </target>
 
