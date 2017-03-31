@@ -70,8 +70,8 @@
     </target>
 
     <target name="phpmd" description="Perform project mess detection using PHPMD and print result in text format">
-	    <!-- <exec executable="${basedir}/build/tools/phpmd.phar" taskname="phpmd"> -->
-		    <exec executable="/usr/local/bin/phpmd" taskname="phpmd">
+	<!-- <exec executable="${basedir}/build/tools/phpmd.phar" taskname="phpmd"> -->
+	<exec executable="/usr/local/bin/phpmd" taskname="phpmd">
             <arg path="${basedir}/src"/>
             <arg value="text"/>
             <arg path="${basedir}/build/phpmd.xml"/>
@@ -142,7 +142,8 @@
     </target>
 
     <target name="phpdox" depends="phploc-ci,phpcs-ci,phpmd-ci" description="Generate API documentation using phpDox">
-        <exec executable="${basedir}/build/tools/phpdox.phar" dir="${basedir}/build" taskname="phpdox"/>
+	<!-- <exec executable="${basedir}/build/tools/phpdox.phar" dir="${basedir}/build" taskname="phpdox"/> -->
+	<exec executable="/usr/local/bin/phpdox" dir="${basedir}/" taskname="phpdox"/>
     </target>
 
     <target name="-check-failure">

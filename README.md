@@ -44,19 +44,18 @@ shell returned 1
 
 ---
 ## 2017-03-31 Viernes
-Hechos algunos ajustes para eliminar error /tmp/t01/build.xml:23: /tmp/t01/tests does not exist. en el build 
-
+- :smile: 1era corrida completa de ant build
 
 # Notas
 
 ## Required PHP Tools
-- PHPUnit :ok:
+- PHPUnit - unit test for PHP - :ok:
 - PHP_CodeSniffer :ok:
-- PHPLOC :ok:
-- PHP_Depend :ok:
+- PHPLOC - A tool for quickly measuring the size of a PHP project. - :ok:
+- PHP_Depend - static code analysis on a given source base. :ok:
 - PHPMD - Mess Detector - :ok: 
 - PHPCPD - Copy/Paste Detector (CPD) for PHP code.
-- phpDox
+- phpDox - The PHP Documentation Generator - :ok:
 
 phploc 
 ```
