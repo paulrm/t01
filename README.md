@@ -49,6 +49,15 @@ Hechos algunos ajustes para eliminar error /tmp/t01/build.xml:23: /tmp/t01/tests
 
 # Notas
 
+## Required PHP Tools
+- PHPUnit :ok:
+- PHP_CodeSniffer :ok:
+- PHPLOC :ok:
+- PHP_Depend :ok:
+- PHPMD - Mess Detector - :ok: 
+- PHPCPD - Copy/Paste Detector (CPD) for PHP code.
+- phpDox
+
 phploc 
 ```
 phploc --count-tests ./src/ ./tests/
