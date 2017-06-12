@@ -2,8 +2,10 @@
 echo "cwd=" . getcwd() . "\n";
 include_once 'src/init.php';
 
-use PHPUnit\Framework\TestCase;
-class initTest extends TestCase {
+#use PHPUnit\Framework\TestCase;
+#require_once ('PHPUnit/Framework/TestCase.php');
+#require_once 'PHPUnit/Autoload.php';
+class initTest extends PHPUnit_Framework_TestCase {
 		
 private $example_instance = null;
 	public function __construct(){
