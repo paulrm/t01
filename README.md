@@ -43,6 +43,11 @@ shell returned 1
 # History
 
 ---
+## 2017-06-12 Lunes
+- :-1: muchos dias (mas de 2 meses sin darle bola a esto! todo mal!) 
+- 2da corrida completa desde Jenkins en Hal
+
+---
 ## 2017-03-31 Viernes
 - :smile: 1era corrida completa de ant build
 
