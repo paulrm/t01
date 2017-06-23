@@ -41,6 +41,10 @@ shell returned 1
 ```
 
 # History
+---
+## 2017-06-23 Viernes
+- build en Hal -> Fail x en  PHPUnit did not finish successfully
+- agregando prueba en semaphore
 
 ---
 ## 2017-06-12 Lunes
