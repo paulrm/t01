@@ -43,8 +43,9 @@ shell returned 1
 # History
 ---
 ## 2017-06-23 Viernes
-- build en Hal -> Fail x en  PHPUnit did not finish successfully
-- agregando prueba en semaphore
+- build en Hal -> Ok
+- build en Chianti -> Fail x en  PHPUnit did not finish successfully
+- build en semaphore -> modificado a solo correr el phpunit da Ok :smile:
 
 ---
 ## 2017-06-12 Lunes
